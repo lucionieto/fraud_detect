@@ -47,7 +47,6 @@ The process of sending money directly to another user within the mobile money pl
 
 Due to the size of the dataset, raw data files are excluded from version control. Feature engineering and model training are demonstrated through the included notebooks, and the application focuses on inference using transaction-level inputs.
 
-Future work could include additional feature engineering to better capture transaction behavior and identify weaknesses in existing fraud detection rules.
 ---
 ## Modeling Approach
 A supervised machine learning model was trained to classify transactions as fraudulent or non-fraudulent using transaction-level features. The trained model is integrated into the Streamlit application to enable real-time prediction based on user-provided inputs.
