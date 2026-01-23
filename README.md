@@ -6,13 +6,13 @@ The application allows users to input transaction-level features (e.g., amount, 
 
 **Key components**
 
-Data preprocessing and feature alignment for model inference
+-Data preprocessing and feature alignment for model inference
 
-Streamlit-based UI for interactive inputs and predictions
+-Streamlit-based UI for interactive inputs and predictions
 
-Clear separation between model logic and presentation layer
+-Clear separation between model logic and presentation layer
 
-This project reinforced the importance of reproducibility, dependency management, and designing analytics with the end user in mind.
+-This project reinforced the importance of reproducibility, dependency management, and designing analytics with the end user in mind.
 
 **Tech Stack**
 - Python
@@ -48,3 +48,14 @@ The process of sending money directly to another user within the mobile money pl
 Due to the size of the dataset, raw data files are excluded from version control. Feature engineering and model training are demonstrated through the included notebooks, and the application focuses on inference using transaction-level inputs.
 
 Future work could include additional feature engineering to better capture transaction behavior and identify weaknesses in existing fraud detection rules.
+---
+## Modeling Approach
+A supervised machine learning model was trained to classify transactions as fraudulent or non-fraudulent using transaction-level features. The trained model is integrated into the Streamlit application to enable real-time prediction based on user-provided inputs.
+
+---
+
+## Running the Application
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/lucionieto/fraud_detect.git
+   cd fraud_detect
