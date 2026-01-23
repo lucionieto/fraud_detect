@@ -14,7 +14,7 @@ Clear separation between model logic and presentation layer
 
 This project reinforced the importance of reproducibility, dependency management, and designing analytics with the end user in mind.
 
-** Tech Stack **
+**Tech Stack**
 - Python
 - Pandas, NumPy
 - Scikit-learn
