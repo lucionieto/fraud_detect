@@ -5,3 +5,4 @@ __pycache__/
 .ipynb_checkpoints/
 AIML Dataset (1).csv
 AIML Dataset (1).csv
+fraud_detection_pipeline.pkl
