@@ -1,4 +1,4 @@
-#Fraud Detection Web App (Streamlit)
+# Fraud Detection Web App (Streamlit)
 
 This project is a hands-on implementation of an end-to-end fraud detection workflow, built to translate a machine learning model into an interactive decision-support tool.
 
