@@ -59,3 +59,5 @@ A supervised machine learning model was trained to classify transactions as frau
    ```bash
    git clone https://github.com/lucionieto/fraud_detect.git
    cd fraud_detect
+2. pip install -r requirements.txt
+3. streamlit run fraud_detection.py
